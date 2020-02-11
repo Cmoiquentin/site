@@ -1,0 +1,233 @@
+body, html, header {
+   margin: 0;
+   background: #F1F1F1;
+   line-height: 1.3;
+   font-family: Roboto, sans-serif;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.6)
+   
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1/ 2;
+  grid-row: 2/2;
+}
+.two { 
+  grid-column: 2/ 2;
+  grid-row: 2 / 4;
+}
+
+
+
+
+
+.texte1{
+  display: grid;
+  margin: 7%;
+  font-size: 1.3em;
+  
+}
+
+.texte2{
+  display: grid;
+  font-size: 1.3em;
+  margin: 7%;
+}
+
+.texte3{
+
+  display: grid;
+  font-size: 1.3em;
+  margin: 7%;
+  
+}
+
+ 
+
+
+a {
+    color: inherit;
+}
+
+.topbar {
+   background-color: rgb(247, 62, 62);
+    color: rgb(250, 248, 248);
+    font-size: 1.3em;
+}
+
+.topbar a {
+    text-decoration: none;
+}
+.topbar-logo {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    line-height: 54px;
+    padding: 11px 0;
+}
+
+.topbar-nav{
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.topbar-nav a {
+    display: inline-block;
+    margin: 0 12px;
+    color: rgba(255, 255, 255, 0.67);
+    transition: color .3s;
+}
+
+.topbar-nav a:hover,
+.topbar-nav a.active {
+    color: ivory;
+}
+
+
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    padding: 0 25px;
+}
+
+.titre{
+
+    text-align: center;
+
+
+}
+
+
+
+  .instagram2 {
+        border-radius: 60%;
+      }
+      
+      .instagram2:hover {
+        animation: rotate linear 0.5s;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+  
+
+
+      .facebook {
+        border-radius: 50%;
+      }
+      
+      .facebook:hover {
+        animation: rotate linear 0.5s;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+  
+      .linkedin {
+        border-radius: 50%;
+      }
+      
+      .linkedin:hover {
+        animation: rotate linear 0.5s;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+
+
+
+ 
+      .instagram2 {
+        border-radius: 50%;
+      }
+      
+      .instagram2:hover {
+        animation: rotate linear 0.5s;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+  
+
+
+      .facebook {
+        border-radius: 50%;
+      }
+      
+      .facebook:hover {
+        animation: rotate linear 0.5s;
+      }
+      
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .linkedin {
+       border-radius: 50%;
+     }
+     
+     .linkedin:hover {
+       animation: rotate linear 0.5s;
+     }
+     
+     @keyframes rotate {
+       0% {
+         transform: rotate(0deg);
+       }
+       100% {
+         transform: rotate(360deg);
+       }
+     }
+  footer{
+
+background-color: rgb(184, 184, 184);
+padding-bottom: 2%;
+  }
+
+.footer{
+
+text-align: center;
+margin-left: 50px;
+}
+
+
+
